@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "thaumaturgy",
+	"version": "${version}",
+	"name": "Thaumaturgy",
+	"description": "Thaumaturgy (ˈθɔːmətɜːrdʒi), the art of performing prodigies or miracles.",
+	"authors": [
+		"Jofi!"
+	],
+	"contact": {
+		"discord": "https://discord.gg/S7txDySa89",
+		"sources": ""
+	},
+	"license": "ARR",
+	"icon": "assets/thaumaturgy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jofi.thaumaturgy.Thaumaturgy"
+		],
+		"fabric-datagen": [
+			"net.jofi.thaumaturgy.ThaumaturgyDataGenerator"
+		],
+      "client": [
+        "net.jofi.thaumaturgy.ThaumaturgyClient"
+      ]
+	},
+	"mixins": [
+		"thaumaturgy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
