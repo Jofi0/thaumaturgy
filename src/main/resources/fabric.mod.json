@@ -11,7 +11,7 @@
 		"discord": "https://discord.gg/S7txDySa89",
 		"sources": ""
 	},
-	"license": "ARR",
+	"license": "MIT-license",
 	"icon": "assets/thaumaturgy/icon.png",
 	"environment": "*",
 	"entrypoints": {
